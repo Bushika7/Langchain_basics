@@ -1,0 +1,9 @@
+Recurrent neural networks have long been used in sequence modeling, but a new model called the Transformer,
+ which relies on attention mechanisms instead of recurrence,has shown significant improvements in
+ translation quality and parallelization efficiency.
+
+
+The article explores the evolution of sequence modeling techniques,
+highlighting the limitations of recurrent neural networks and the
+introduction of the Transformer model architecture to address these
+constraints and achieve superior results in translation quality and training efficiency.
