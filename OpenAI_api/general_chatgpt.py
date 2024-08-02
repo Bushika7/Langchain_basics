@@ -10,7 +10,7 @@ Please provide clear bullet point step by step instructions for each question
 """
 
 text = """
-How do I add my .venv virtual environment which I use in pycharm as a kernel to jupyter lab? 
+How do I load a file that is 2 folders up in the hierarchy in python? I'M trying '.../sample.csv' but it does not work
 """
 
 chat_completion = client.chat.completions.create(
