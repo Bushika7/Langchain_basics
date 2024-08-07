@@ -12,7 +12,7 @@ text_splitter = CharacterTextSplitter(chunk_size=50, chunk_overlap=0, separator 
 documents = text_splitter.split_documents(raw_documents)
 db = FAISS.from_documents(documents, OpenAIEmbeddings(openai_api_key = api_key))
 
-query = "Greeting"
+query = "Person"
 docs = db.similarity_search(query)
 print(docs[0].page_content)
 
